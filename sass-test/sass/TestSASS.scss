@@ -1,0 +1,28 @@
+$border: 1px solid #EFC6F3;
+$NewsHeaderFontSize: 12px;
+$TitleColors: Red;
+$ArticleHeaderFontSize: 10px;
+.post
+{
+	border-radius: 3px;
+	background: #FFF8FF;
+	border: $border;
+	padding:15px; 
+	color: #333333;
+	.title{
+	color:#000000;
+	font-size:20px; 
+	}
+	.alt-title{
+		@extend .title;
+		border-bottom: $border;
+	}
+	.NewsHeader{
+		font-size: $NewsHeaderFontSize;
+		color: $TitleColors;
+	}
+	.ArticleHeader{
+		font-size: $ArticleHeaderFontSize;
+		color: $TitleColors;
+	}
+}

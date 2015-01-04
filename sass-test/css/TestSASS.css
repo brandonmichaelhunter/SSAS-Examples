@@ -1,0 +1,19 @@
+.post {
+  border-radius: 3px;
+  background: #FFF8FF;
+  border: 1px solid #EFC6F3;
+  padding: 15px;
+  color: #333333; }
+  .post .title, .post .alt-title {
+    color: #000000;
+    font-size: 20px; }
+  .post .alt-title {
+    border-bottom: 1px solid #EFC6F3; }
+  .post .NewsHeader {
+    font-size: 12px;
+    color: Red; }
+  .post .ArticleHeader {
+    font-size: 10px;
+    color: Red; }
+
+/*# sourceMappingURL=TestSASS.css.map */
